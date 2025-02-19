@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 import { PiHexagonThin } from "react-icons/pi";
+import hero_img from "../../images/hero_img.png";
 
 const HeroPic = () => {
   return (
@@ -12,7 +13,7 @@ const HeroPic = () => {
       className=" h-full flex items-center justify-center "
     >
       <img
-        src="../../public/images/Hero_img.png"
+        src={hero_img}
         alt="Krishna Sai Vellampalli"
         className="max-h-[450px] w-auto"
       />

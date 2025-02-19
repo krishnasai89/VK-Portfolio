@@ -3,7 +3,13 @@ import { FaCss3Alt } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io";
 // import { SiTypescript } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
-import { SiRedux, SiPython, SiMysql, SiMongodb } from "react-icons/si";
+import {
+  SiRedux,
+  SiPython,
+  SiMysql,
+  SiMongodb,
+  SiDjango,
+} from "react-icons/si";
 // import { SiNextdotjs } from "react-icons/si";
 import { RiTailwindCssFill, RiJavaFill } from "react-icons/ri";
 import { motion } from "framer-motion";
@@ -57,6 +63,10 @@ const skills = [
   {
     skill: "Mongo DB",
     icon: SiMongodb,
+  },
+  {
+    skill: "Django",
+    icon: SiDjango,
   },
 ];
 
