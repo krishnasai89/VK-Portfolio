@@ -3,6 +3,10 @@ import SingleProject from "./SingleProject";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 // import { image } from "framer-motion/client";
+import project1 from "../../images/Project1.png";
+import project2 from "../../images/project2.png";
+import project3 from "../../images/project3.png";
+import project4 from "../../images/website-img-4.jpg";
 
 const projects = [
   {
@@ -10,7 +14,7 @@ const projects = [
     year: "jan 2025",
     align: "right",
     // image: "../../public/images/website-img-1.jpg",
-    image: "../../../public/images/Project1.png",
+    image: project1,
     link: "https://zomato-clone-ui.vercel.app/",
   },
   {
@@ -18,7 +22,7 @@ const projects = [
     year: "sep 2024",
     align: "left",
     // image: "../../public/images/website-img-2.webp",
-    image: "../../../public/images/project2.png",
+    image: project2,
     link: "https://weather-app-main-theta.vercel.app/",
   },
   {
@@ -26,14 +30,14 @@ const projects = [
     year: "Nov 2024",
     align: "right",
     // image: "../../public/images/website-img-3.jpg",
-    image: "../../../public/images/project3.png",
+    image: project3,
     link: "https://nike-gray-beta.vercel.app/",
   },
   {
     name: "Login-system-ui-redux",
     year: "Dec2024",
     align: "left",
-    image: "../../public/images/website-img-4.jpg",
+    image: project4,
     link: "https://login-system-dusky-phi.vercel.app/",
   },
 ];
